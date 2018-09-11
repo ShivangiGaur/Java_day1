@@ -7,7 +7,7 @@ public class Person {
 	public char gender;
 	public int age;
 	public float weight;
-	public double phoneNumber;
+	public static double phoneNumber;
 	
 	
 	//get-set
@@ -82,6 +82,7 @@ public static void main(String[] args) {
 		System.out.println("Gender:"+ person1.gender);
 		System.out.println("Age:"+ person1.age);
 		System.out.println("Weight:"+ person1.weight);
+		System.out.println("Phone Number:" + phoneNumber);
 		
 		
 
